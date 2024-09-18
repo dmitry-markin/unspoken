@@ -33,8 +33,9 @@ use std::{
 };
 use unspoken::{ChatClient, ChatClientConfig};
 
-#[derive(Debug, clap::Parser)]
-#[command(version, about = "OpenAI chat API CLI", long_about = None)]
+#[derive(Debug, Parser)]
+#[command(version)]
+#[command(about = "Chatbot API CLI. Currently supports OpenAI chat API.", long_about = None)]
 #[command(after_help = "You can only set `api_key` in config. \
                         Command line options override the ones from config.")]
 struct Args {
