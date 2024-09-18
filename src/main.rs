@@ -39,11 +39,11 @@ use unspoken::{ChatClient, ChatClientConfig};
 #[command(after_help = "You can only set `api_key` in config. \
                         Command line options override the ones from config.")]
 struct Args {
-    /// API url. Example: "https://models.inference.ai.azure.com/".
+    /// API url. Default: "https://models.inference.ai.azure.com/".
     #[arg(short, long)]
     url: Option<String>,
 
-    /// Model. Example: "gpt-4o".
+    /// Model. Default: "gpt-4o".
     #[arg(short, long)]
     model: Option<String>,
 
