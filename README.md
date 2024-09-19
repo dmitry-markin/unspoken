@@ -1,6 +1,7 @@
-# unspoken
+**NOTICE** This project has been renamed to `jutella` and has been moved to https://github.com/dmitry-markin/jutella. This crate/binary has been moved to [jutella](https://crates.io/crates/jutella) from `0.2.0`
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dmitry-markin/unspoken/blob/master/LICENSE) [![crates.io](https://img.shields.io/crates/v/unspoken.svg)](https://crates.io/crates/unspoken) [![docs.rs](https://img.shields.io/docsrs/unspoken.svg)](https://docs.rs/unspoken/latest/unspoken/)
+
+# unspoken
 
 Chatbot API client library and CLI interface. Currently supports OpenAI chat API.
 
